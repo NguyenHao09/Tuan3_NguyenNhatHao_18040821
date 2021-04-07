@@ -1,0 +1,125 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 15, 2021, 6:54:45 PM
+    Author     : TriPham
+*/
+    article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+html {
+    background-image: -moz-linear-gradient(top, white 0%, #facd8a 100%);
+}
+section, aside, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+section, aside {
+    margin-top: 1.5em;
+    margin-bottom: 1em;    
+}
+ul { 
+    margin-left: 1.5em;
+    margin-bottom: 1.5em; 
+}
+li { padding-bottom: 0.25em; }
+
+p { padding-bottom: 0.5em; }
+    
+em { font-weight: bold; }
+h1 { font-size: 175%; }
+h2 { font-size: 125%; }
+a { font-weight: bold; }
+a:link { color: green; }
+a:visited { color: green; }
+a.current { color: #ef9c00; }
+a:hover, a:focus { color: blue; }
+header h1 {
+    color: #ef9c00;
+    margin-left: 120px;
+    margin-bottom: 0.25em;
+}
+header h2 {
+    color: green;
+    font-style: italic;
+    margin-left: 120px;
+}
+header img { 
+    float: left;
+}
+footer p {
+    font-size: 80%;
+    text-align: right;
+}
+#nav_bar ul {
+    margin-bottom: .5em;
+    list-style: none;
+    padding-top: .5em;
+}
+#nav_bar li {
+    display: inline;
+    padding: 0 1.5em;
+    border-left: 2px solid black;
+}
+    body {
+     font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+    width: 964px;
+    background-color: white;
+    margin: 15px auto;
+    padding: 15px 25px;
+    border: 1px solid black;
+}
+
+   header{
+    padding-bottom: 2em;
+    border-bottom: 2px solid #ef9c00;
+    }
+   
+footer {
+    clear: both;
+    margin-top: 1em;
+    border-top: 2px solid #ef9c00;
+    padding-top: 0.7em;
+}
+
+#nav_bar {
+    clear: left;
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px solid #ef9c00;
+    text-align: right;
+}
+
+#sidebarA{
+       width: 180px; 
+        float: left; 
+        height: 400px;
+        border-right: 2px solid #ef9c00;
+    }
+    section{
+            width: 520px;
+            padding-right: 20px;
+            padding-left: 20px;
+            float: left;    
+          
+   }
+    #sidebarB{
+            width: 180px; 
+            float: right; 
+            height: 400px;
+            padding-left: 20px;
+            border-left: 2px solid #ef9c00;
+         
+    }
+    footer {
+    clear: both;
+    margin-top: 1em;
+    border-top: 2px solid #ef9c00;
+    padding-top: 0.7em;
+}
+   
+

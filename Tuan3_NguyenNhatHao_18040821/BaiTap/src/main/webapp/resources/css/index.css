@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header {
+	width: 880px;
+	height: 80px;
+	background-color: #111818;
+}
+
+aside {
+	width: 180px;
+	height: 450px;
+	background-color: #224444;
+	float: left;
+	
+}
+
+section {
+	width: 700px;
+	height: 450px;
+	background-color: #173030;
+	float: left;
+	font-family: "Arial", "sans-serif";
+	color: white;
+}
+
+footer {
+	clear: both;
+	width: 880px;
+	height: 80px;
+	background-color: #111818;
+}
+
+#fNBlock {
+	float: left;
+}
+
+#lNBlock {
+	float: left;
+	padding-left: 25px;
+}
